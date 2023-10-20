@@ -1,0 +1,11 @@
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\bin\Debug\net6.0\ShopOnline.Models.deps.json
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\bin\Debug\net6.0\ShopOnline.Models.dll
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\bin\Debug\net6.0\ShopOnline.Models.pdb
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.AssemblyInfoInputs.cache
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.AssemblyInfo.cs
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.csproj.CoreCompileInputs.cache
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.dll
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\obj\Debug\net6.0\refint\ShopOnline.Models.dll
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.pdb
+D:\.Net6\ShopOnline_FCC\ShopOnlineSolution\ShopOnline.Models\obj\Debug\net6.0\ref\ShopOnline.Models.dll

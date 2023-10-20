@@ -1,0 +1,35 @@
+﻿@page "/ProductDetail/{id:int}"
+@inherits ProductDetailBase
+
+@if (Product == null && ErrorMessage == null)
+{
+    <DisplaySpinner />
+}
+else if (ErrorMessage != null)
+{
+    <DisplayError ErrorMessage="@ErrorMessage" />
+}
+else
+{
+    <h3 class="mb-3">Product Detail</h3>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img class="img-fluid" src="@Product.ImageURL" />
+        </div>
+        <div class="col-md-6">
+            <h3>@Product.Name</h3>
+            <p class="mb-4">@Product.Description</p>
+            <p class="mb-4">
+                <b>
+                    @Product.Price.ToString("C") &nbsp; (@Product.Qty items in stock)
+                </b>
+            </p>
+            <input @onclick = "()=> AddToCart_Click(new Models.Dtos.CartItemToAddDto{
+                   CartId = HardCoded.UserId,
+                   ProductId = Product.Id,
+                   Qty = 1
+             })" 
+             class="btn btn-success" type="button" value="Add to Cart" />
+        </div>
+    </div>
+}       
